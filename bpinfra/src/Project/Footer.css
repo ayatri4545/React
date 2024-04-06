@@ -1,0 +1,23 @@
+.Footer{
+    margin-top: 70px;
+    height: 350px;
+    width: 100%;
+    background: url('./Image/buld.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.details{
+    margin-top: 30px;
+    font-style:italic;
+    font-weight: 500;
+    color: aliceblue;
+    margin-left: 20px;
+   
+
+}
+h2{
+    margin-top: 30px;
+    margin-left: 20px;
+}

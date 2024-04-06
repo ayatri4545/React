@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.About{
+    display: inline;
+    justify-content: center;
+
+    height:auto;
+    width: 100%;
+    background: whitesmoke;
+    
+}
+.info{
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+     
+}
+.hw{
+    font-size:x-large;
+    font-family: "Protest Riot", sans-serif;
+}
+.we{
+   margin-top: 10px;
+    font-family: "Protest Riot", sans-serif;
+}
+
+.Head{
+    display: flex;
+    margin-top: 10px;
+    justify-content: first baseline;
+    align-items: center;
+    background: grey ;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.company{
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:5px;
+}

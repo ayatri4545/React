@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.card{
+    height:400px;
+    margin-top: 30px;
+   
+}
+.side{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+height: 600px;
+width: 100%;
+background: whitesmoke;
+  
+    
+}
+.do{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+    font-family:"Philosopher", sans-serif ;
+}
+.dec{
+
+    font-size: 50px;
+    margin-top: 200px;
+    font-family:"Philosopher", sans-serif ;
+    margin-left: 10px;
+}
