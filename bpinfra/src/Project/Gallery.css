@@ -1,20 +1,69 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
-.Ga{
+.Ga {
     text-align: center;
     margin-top: 10px;
     font-family:  "Protest Riot", sans-serif;
     font-size: 70px;
 }
+.li ,.in ,.w{
+    margin-top: 20px;
+    background: cadetblue;
+    border-radius: 20px;
+ 
+    font-family:  "Protest Riot", sans-serif;
+    font-size: 40px;
+}
+
 .cont{
-    height: auto;
-    width: 100%;
+   
+   margin: auto;
+    height: 300px;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .comt{
     
     border: 2px solid black;
+    display: flex;
+    
+}
+.more{
+   text-decoration: none;
+   color:blue;
+   font-size: 20px; 
+   margin-left: 400px;
+   font-family:  "Protest Riot", sans-serif;
+   text-align: end;
+}
+@media  screen and (max-width:750px) {
+    .cont,.comt{
+        height: 70vh;
+        width: 30%;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+         */
+        flex-direction:column;
+       
+        /* position: fixed; */
+        background:white;
+        
+        /* top:100px;
+        left:99%; */
+        transition: all 1s ;
+        gap: 10px;
+       
+    }
+    .w{
+        height: 10vh;
+        margin-top: 570px;
+        text-align: center;
+    }
+    
+    
+   
 }
